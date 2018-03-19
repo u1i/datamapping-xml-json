@@ -1,0 +1,36 @@
+{
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "properties": {
+    "id": {
+      "$id": "/properties/id",
+      "type": "string",
+      "title": "ID",
+      "description": "Numeric UserID",
+      "default": "",
+      "examples": [
+        "90422"
+      ]
+    },
+    "name": {
+      "$id": "/properties/name",
+      "type": "string",
+      "title": "Name",
+      "description": "Full Name of the User",
+      "default": "",
+      "examples": [
+        "Uli"
+      ]
+    },
+    "location": {
+      "$id": "/properties/location",
+      "type": "string",
+      "title": "Location ",
+      "description": "Home Country of the User",
+      "default": "",
+      "examples": [
+        "Singapore"
+      ]
+    }
+  }
+}
